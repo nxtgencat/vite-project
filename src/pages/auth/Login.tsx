@@ -46,7 +46,6 @@ export default function Login() {
     if (demoParam !== 'candidate' && demoParam !== 'recruiter') return
     demoHandled.current = true
     if (signInDemo(demoParam)) {
-      toast.success(`Signed in to the ${demoParam} demo.`)
       navigate(destination, { replace: true })
     }
   }, [demoParam, destination, navigate, signInDemo, user])

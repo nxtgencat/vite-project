@@ -2,6 +2,7 @@ export const STORAGE_KEYS = {
   users: 'longlist.users.v1',
   session: 'longlist.session.v1',
   companies: 'longlist.companies.v1',
+  deletedCompanies: 'longlist.deleted-companies.v1',
   people: 'longlist.people.v1',
   directoryUpdated: 'longlist.directory-updated.v1',
   jobs: 'longlist.jobs.v1',

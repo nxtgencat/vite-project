@@ -6,6 +6,7 @@ import { AppShell } from './components/layout/AppShell'
 import { AuthLayout } from './components/layout/AuthLayout'
 import { ProtectedRoute } from './components/layout/ProtectedRoute'
 import { AuthProvider } from './context/AuthProvider'
+import { DataProvider } from './context/DataProvider'
 import NotFound from './pages/NotFound'
 
 const Login = lazy(() => import('./pages/auth/Login'))
@@ -17,6 +18,7 @@ function App() {
   return (
     <BrowserRouter>
       <AuthProvider>
+        <DataProvider>
         <Routes>
           <Route element={<AuthLayout />}>
             <Route path="/login" element={<Login />} />
@@ -43,6 +45,7 @@ function App() {
           theme="light"
           limit={3}
         />
+        </DataProvider>
       </AuthProvider>
     </BrowserRouter>
   )

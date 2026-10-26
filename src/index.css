@@ -185,7 +185,7 @@ button.num, a.num { font-variant-numeric: tabular-nums; }
   margin-bottom: 16px;
 }
 .panel-title { font-size: 16px; line-height: 22px; font-weight: 600; letter-spacing: -0.01em; }
-.panel-meta { color: var(--color-faint); font-size: 12px; line-height: 16px; }
+.panel-meta { color: var(--color-muted); font-size: 13px; line-height: 17px; }
 .panel-divider { border-top: 1px solid var(--color-rule); }
 .inner-well { background: var(--color-ground); border-radius: var(--radius-control); }
 
@@ -200,22 +200,24 @@ button.num, a.num { font-variant-numeric: tabular-nums; }
 }
 .kpi-cell { padding: 16px 20px; min-width: 0; }
 .kpi-cell + .kpi-cell { border-left: 1px solid var(--color-border); }
-.kpi-label { color: var(--color-muted); font-size: 12px; line-height: 16px; }
+.kpi-label { color: var(--color-muted); font-size: 13px; line-height: 17px; }
 .kpi-value {
   margin-top: 6px;
-  font-size: 30px;
-  line-height: 34px;
+  font-size: 24px;
+  line-height: 28px;
   font-weight: 400;
   letter-spacing: -0.02em;
   font-variant-numeric: tabular-nums;
 }
-.kpi-meta { margin-top: 2px; color: var(--color-muted); font-size: 12px; line-height: 16px; }
+.kpi-meta { margin-top: 2px; color: var(--color-muted); font-size: 13px; line-height: 17px; }
 .kpi-meta .down { color: var(--color-negative); }
 .kpi-meta .up { color: var(--color-positive); }
 
 /* ---------- rows and tables ---------- */
 .row-list { display: grid; }
-.row-item { display: flex; align-items: center; gap: 12px; min-height: 44px; padding: 10px 0; }
+.row-list > * { min-width: 0; }
+.row-item { display: flex; align-items: center; gap: 12px; min-height: 44px; padding: 10px 0; min-width: 0; }
+.row-item > * { min-width: 0; }
 .row-item + .row-item { border-top: 1px solid var(--color-rule); }
 .data-table { width: 100%; border-collapse: collapse; }
 .data-table th {
@@ -535,11 +537,15 @@ dialog.dialog[open] { animation: dialog-in 160ms var(--ease-out); }
 }
 .pipeline-stage { padding: 14px 14px 12px; min-width: 0; }
 .pipeline-stage + .pipeline-stage { border-left: 1px solid var(--color-rule); }
-.pipeline-label { color: var(--color-muted); font-size: 12px; line-height: 16px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.pipeline-value { margin-top: 4px; font-size: 24px; line-height: 28px; font-weight: 400; font-variant-numeric: tabular-nums; }
-.pipeline-track { margin-top: 10px; height: 4px; background: var(--color-rule); border-radius: 2px; overflow: hidden; }
-.pipeline-fill { height: 100%; background: var(--color-ink); border-radius: 2px; }
-.pipeline-stage[data-active="true"] .pipeline-fill { background: var(--color-data); }
+.pipeline-label { color: var(--color-muted); font-size: 13px; line-height: 17px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.pipeline-value { margin-top: 2px; font-size: 30px; line-height: 34px; font-weight: 400; font-variant-numeric: tabular-nums; }
+.pipeline-band { display: flex; gap: 2px; height: 14px; margin-top: 12px; }
+.pipeline-band span { display: block; min-width: 3px; border-radius: 2px; background: var(--color-rule); }
+.pipeline-band span[data-stage="Applied"] { background: var(--color-ink); }
+.pipeline-band span[data-stage="In review"] { background: #6b7378; }
+.pipeline-band span[data-stage="Interview"] { background: #a3acb1; }
+.pipeline-band span[data-stage="Offer"] { background: #c9d0d4; }
+.pipeline-band span[data-active="true"] { background: var(--color-data); }
 .pipeline-stage[data-active="true"] .pipeline-label { color: var(--color-ink); }
 
 /* ---------- chart ---------- */
@@ -560,7 +566,7 @@ dialog.dialog[open] { animation: dialog-in 160ms var(--ease-out); }
 .action-row + .action-row { border-top: 1px solid var(--color-rule); border-radius: 0; }
 .action-row + .action-row:hover { border-radius: var(--radius-control); }
 .action-row .action-title { font-size: 13px; font-weight: 500; }
-.action-row .action-note { margin-top: 1px; color: var(--color-muted); font-size: 12px; line-height: 16px; }
+.action-row .action-note { margin-top: 1px; color: var(--color-muted); font-size: 13px; line-height: 18px; }
 
 /* ---------- tablet and phone ---------- */
 @media (max-width: 1100px) {

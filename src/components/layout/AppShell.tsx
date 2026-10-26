@@ -87,13 +87,15 @@ export function AppShell() {
         Skip to content
       </a>
 
-      <button
-        type="button"
-        className={cx('menu-scrim', menuOpen && 'is-open')}
-        aria-hidden="true"
-        tabIndex={-1}
-        onClick={() => setMenuPath(null)}
-      />
+      {menuOpen && (
+        <button
+          type="button"
+          className="menu-scrim is-open"
+          aria-hidden="true"
+          tabIndex={-1}
+          onClick={() => setMenuPath(null)}
+        />
+      )}
 
       <aside id="app-sidebar" className={cx('sidebar', menuOpen && 'is-open')}>
         <div className="flex items-center justify-between gap-2">

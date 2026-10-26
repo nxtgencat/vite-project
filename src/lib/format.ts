@@ -72,6 +72,10 @@ export function formatMonth(iso: string) {
   return Number.isNaN(date.getTime()) ? '—' : monthShort.format(date)
 }
 
+export function monthLabel(date: Date) {
+  return monthShort.format(date)
+}
+
 export function formatDateTime(iso: string) {
   const date = new Date(iso)
   if (Number.isNaN(date.getTime())) return '—'

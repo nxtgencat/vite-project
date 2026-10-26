@@ -1,0 +1,426 @@
+{
+  "source": "https://dummyjson.com/users",
+  "fetchedAt": "2026-10-26T15:10:19Z",
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Emily",
+      "lastName": "Johnson",
+      "email": "emily.johnson@x.dummyjson.com",
+      "city": "Phoenix",
+      "company": {
+        "name": "Dooley, Kozey and Cronin",
+        "department": "Engineering",
+        "title": "Sales Manager",
+        "city": "San Francisco",
+        "country": "United States"
+      }
+    },
+    {
+      "id": 2,
+      "firstName": "Michael",
+      "lastName": "Williams",
+      "email": "michael.williams@x.dummyjson.com",
+      "city": "Houston",
+      "company": {
+        "name": "Spinka - Dickinson",
+        "department": "Support",
+        "title": "Support Specialist",
+        "city": "Los Angeles",
+        "country": "United States"
+      }
+    },
+    {
+      "id": 3,
+      "firstName": "Sophia",
+      "lastName": "Brown",
+      "email": "sophia.brown@x.dummyjson.com",
+      "city": "Washington",
+      "company": {
+        "name": "Schiller - Zieme",
+        "department": "Research and Development",
+        "title": "Accountant",
+        "city": "Dallas",
+        "country": "United States"
+      }
+    },
+    {
+      "id": 4,
+      "firstName": "James",
+      "lastName": "Davis",
+      "email": "james.davis@x.dummyjson.com",
+      "city": "Seattle",
+      "company": {
+        "name": "Pagac and Sons",
+        "department": "Support",
+        "title": "Research Analyst",
+        "city": "Fort Worth",
+        "country": "United States"
+      }
+    },
+    {
+      "id": 5,
+      "firstName": "Emma",
+      "lastName": "Miller",
+      "email": "emma.miller@x.dummyjson.com",
+      "city": "Jacksonville",
+      "company": {
+        "name": "Graham - Gulgowski",
+        "department": "Human Resources",
+        "title": "Quality Assurance Engineer",
+        "city": "San Antonio",
+        "country": "United States"
+      }
+    },
+    {
+      "id": 6,
+      "firstName": "Olivia",
+      "lastName": "Wilson",
+      "email": "olivia.wilson@x.dummyjson.com",
+      "city": "Fort Worth",
+      "company": {
+        "name": "Pfannerstill Inc",
+        "department": "Product Management",
+        "title": "Research Analyst",
+        "city": "Indianapolis",
+        "country": "United States"
+      }
+    },
+    {
+      "id": 7,
+      "firstName": "Alexander",
+      "lastName": "Jones",
+      "email": "alexander.jones@x.dummyjson.com",
+      "city": "Indianapolis",
+      "company": {
+        "name": "Dickens - Beahan",
+        "department": "Engineering",
+        "title": "Web Developer",
+        "city": "Washington",
+        "country": "United States"
+      }
+    },
+    {
+      "id": 8,
+      "firstName": "Ava",
+      "lastName": "Taylor",
+      "email": "ava.taylor@x.dummyjson.com",
+      "city": "Fort Worth",
+      "company": {
+        "name": "Nikolaus Inc",
+        "department": "Marketing",
+        "title": "Chief Executive Officer",
+        "city": "Austin",
+        "country": "United States"
+      }
+    },
+    {
+      "id": 9,
+      "firstName": "Ethan",
+      "lastName": "Martinez",
+      "email": "ethan.martinez@x.dummyjson.com",
+      "city": "San Antonio",
+      "company": {
+        "name": "Gorczany - Gottlieb",
+        "department": "Support",
+        "title": "Legal Counsel",
+        "city": "Chicago",
+        "country": "United States"
+      }
+    },
+    {
+      "id": 10,
+      "firstName": "Isabella",
+      "lastName": "Anderson",
+      "email": "isabella.anderson@x.dummyjson.com",
+      "city": "New York",
+      "company": {
+        "name": "Pollich - Hilpert",
+        "department": "Marketing",
+        "title": "Chief Financial Officer",
+        "city": "San Diego",
+        "country": "United States"
+      }
+    },
+    {
+      "id": 11,
+      "firstName": "Liam",
+      "lastName": "Garcia",
+      "email": "liam.garcia@x.dummyjson.com",
+      "city": "Denver",
+      "company": {
+        "name": "Considine - Torp",
+        "department": "Services",
+        "title": "Web Developer",
+        "city": "Philadelphia",
+        "country": "United States"
+      }
+    },
+    {
+      "id": 12,
+      "firstName": "Mia",
+      "lastName": "Rodriguez",
+      "email": "mia.rodriguez@x.dummyjson.com",
+      "city": "Jacksonville",
+      "company": {
+        "name": "Miller, Schowalter and Wisozk",
+        "department": "Accounting",
+        "title": "Business Analyst",
+        "city": "Philadelphia",
+        "country": "United States"
+      }
+    },
+    {
+      "id": 13,
+      "firstName": "Noah",
+      "lastName": "Hernandez",
+      "email": "noah.hernandez@x.dummyjson.com",
+      "city": "New York",
+      "company": {
+        "name": "Botsford, Marquardt and Roberts",
+        "department": "Engineering",
+        "title": "Database Administrator",
+        "city": "Seattle",
+        "country": "United States"
+      }
+    },
+    {
+      "id": 14,
+      "firstName": "Charlotte",
+      "lastName": "Lopez",
+      "email": "charlotte.lopez@x.dummyjson.com",
+      "city": "Columbus",
+      "company": {
+        "name": "Zulauf and Sons",
+        "department": "Accounting",
+        "title": "Chief Executive Officer",
+        "city": "Los Angeles",
+        "country": "United States"
+      }
+    },
+    {
+      "id": 15,
+      "firstName": "William",
+      "lastName": "Gonzalez",
+      "email": "william.gonzalez@x.dummyjson.com",
+      "city": "San Jose",
+      "company": {
+        "name": "Spinka - Dickinson",
+        "department": "Marketing",
+        "title": "Software Architect",
+        "city": "San Jose",
+        "country": "United States"
+      }
+    },
+    {
+      "id": 16,
+      "firstName": "Avery",
+      "lastName": "Perez",
+      "email": "avery.perez@x.dummyjson.com",
+      "city": "Columbus",
+      "company": {
+        "name": "Herzog Inc",
+        "department": "Accounting",
+        "title": "Database Administrator",
+        "city": "New York",
+        "country": "United States"
+      }
+    },
+    {
+      "id": 17,
+      "firstName": "Evelyn",
+      "lastName": "Sanchez",
+      "email": "evelyn.sanchez@x.dummyjson.com",
+      "city": "San Diego",
+      "company": {
+        "name": "Predovic - Johns",
+        "department": "Support",
+        "title": "Chief Financial Officer",
+        "city": "San Diego",
+        "country": "United States"
+      }
+    },
+    {
+      "id": 18,
+      "firstName": "Logan",
+      "lastName": "Torres",
+      "email": "logan.torres@x.dummyjson.com",
+      "city": "Columbus",
+      "company": {
+        "name": "Jast - Nader",
+        "department": "Training",
+        "title": "Data Analyst",
+        "city": "Denver",
+        "country": "United States"
+      }
+    },
+    {
+      "id": 19,
+      "firstName": "Abigail",
+      "lastName": "Rivera",
+      "email": "abigail.rivera@x.dummyjson.com",
+      "city": "Chicago",
+      "company": {
+        "name": "Prohaska - Thiel",
+        "department": "Human Resources",
+        "title": "Business Analyst",
+        "city": "Austin",
+        "country": "United States"
+      }
+    },
+    {
+      "id": 20,
+      "firstName": "Jackson",
+      "lastName": "Evans",
+      "email": "jackson.evans@x.dummyjson.com",
+      "city": "New York",
+      "company": {
+        "name": "Kuhlman LLC",
+        "department": "Legal",
+        "title": "Web Developer",
+        "city": "Chicago",
+        "country": "United States"
+      }
+    },
+    {
+      "id": 21,
+      "firstName": "Madison",
+      "lastName": "Collins",
+      "email": "madison.collins@x.dummyjson.com",
+      "city": "Philadelphia",
+      "company": {
+        "name": "Mayer - Smitham",
+        "department": "Engineering",
+        "title": "Chief Technology Officer",
+        "city": "San Diego",
+        "country": "United States"
+      }
+    },
+    {
+      "id": 22,
+      "firstName": "Elijah",
+      "lastName": "Stewart",
+      "email": "elijah.stewart@x.dummyjson.com",
+      "city": "Columbus",
+      "company": {
+        "name": "Langworth Group",
+        "department": "Legal",
+        "title": "Business Analyst",
+        "city": "Washington",
+        "country": "United States"
+      }
+    },
+    {
+      "id": 23,
+      "firstName": "Chloe",
+      "lastName": "Morales",
+      "email": "chloe.morales@x.dummyjson.com",
+      "city": "Dallas",
+      "company": {
+        "name": "Grady LLC",
+        "department": "Sales",
+        "title": "Database Administrator",
+        "city": "Houston",
+        "country": "United States"
+      }
+    },
+    {
+      "id": 24,
+      "firstName": "Mateo",
+      "lastName": "Nguyen",
+      "email": "mateo.nguyen@x.dummyjson.com",
+      "city": "Columbus",
+      "company": {
+        "name": "Spinka LLC",
+        "department": "Accounting",
+        "title": "Business Analyst",
+        "city": "Dallas",
+        "country": "United States"
+      }
+    },
+    {
+      "id": 25,
+      "firstName": "Harper",
+      "lastName": "Kelly",
+      "email": "harper.kelly@x.dummyjson.com",
+      "city": "Philadelphia",
+      "company": {
+        "name": "Leffler, Rolfson and Becker",
+        "department": "Legal",
+        "title": "Business Development Manager",
+        "city": "Austin",
+        "country": "United States"
+      }
+    },
+    {
+      "id": 26,
+      "firstName": "Evelyn",
+      "lastName": "Gonzalez",
+      "email": "evelyn.gonzalez@x.dummyjson.com",
+      "city": "Dallas",
+      "company": {
+        "name": "Tromp, Gaylord and Weber",
+        "department": "Accounting",
+        "title": "Project Manager",
+        "city": "Jacksonville",
+        "country": "United States"
+      }
+    },
+    {
+      "id": 27,
+      "firstName": "Daniel",
+      "lastName": "Cook",
+      "email": "daniel.cook@x.dummyjson.com",
+      "city": "Los Angeles",
+      "company": {
+        "name": "Morissette, Baumbach and Auer",
+        "department": "Support",
+        "title": "Legal Counsel",
+        "city": "San Francisco",
+        "country": "United States"
+      }
+    },
+    {
+      "id": 28,
+      "firstName": "Lily",
+      "lastName": "Lee",
+      "email": "lily.lee@x.dummyjson.com",
+      "city": "Phoenix",
+      "company": {
+        "name": "Cremin Inc",
+        "department": "Product Management",
+        "title": "Quality Assurance Engineer",
+        "city": "Phoenix",
+        "country": "United States"
+      }
+    },
+    {
+      "id": 29,
+      "firstName": "Henry",
+      "lastName": "Hill",
+      "email": "henry.hill@x.dummyjson.com",
+      "city": "Indianapolis",
+      "company": {
+        "name": "Gerlach, Funk and Schoen",
+        "department": "Services",
+        "title": "Sales Manager",
+        "city": "San Francisco",
+        "country": "United States"
+      }
+    },
+    {
+      "id": 30,
+      "firstName": "Addison",
+      "lastName": "Wright",
+      "email": "addison.wright@x.dummyjson.com",
+      "city": "San Francisco",
+      "company": {
+        "name": "Kreiger Inc",
+        "department": "Services",
+        "title": "Human Resources Manager",
+        "city": "San Diego",
+        "country": "United States"
+      }
+    }
+  ]
+}
