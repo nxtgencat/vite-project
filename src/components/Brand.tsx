@@ -11,7 +11,13 @@ export function Logo({ size = 20, className }: LogoProps) {
       className={className}
     >
       <path
-        d="M3 4.75h14M3 10h9.5M3 15.25h5.5"
+        d="M3.25 4.5v11"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+      />
+      <path
+        d="M6.75 4.75h10.25M6.75 10h7.25M6.75 15.25h4.25"
         stroke="currentColor"
         strokeWidth="2"
         strokeLinecap="round"
@@ -20,11 +26,11 @@ export function Logo({ size = 20, className }: LogoProps) {
   )
 }
 
-export function Brand({ compact = false }: { compact?: boolean }) {
+export function Brand() {
   return (
     <span className="flex items-center gap-2">
       <Logo />
-      <span className="wordmark">{compact ? 'Longlist' : 'Longlist'}</span>
+      <span className="wordmark">Longlist</span>
     </span>
   )
 }

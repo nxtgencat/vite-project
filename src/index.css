@@ -639,3 +639,29 @@ dialog.dialog[open] { animation: dialog-in 160ms var(--ease-out); }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition-duration: 0.01ms !important; animation: none !important; scroll-behavior: auto !important; }
 }
+
+fieldset { border: 0; padding: 0; margin: 0; min-width: 0; }
+legend { padding: 0; }
+
+.menu-close { display: none; }
+@media (max-width: 1100px) { .menu-close { display: inline-flex; } }
+
+.Toastify__toast-container { padding: 16px; }
+.Toastify__toast {
+  font-family: var(--font-sans);
+  background: var(--color-surface);
+  color: var(--color-ink);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-card);
+  box-shadow: 0 12px 28px rgba(10, 10, 10, 0.12);
+  font-size: 13px;
+  line-height: 18px;
+  padding: 11px 12px;
+  min-height: 44px;
+}
+.Toastify__toast-icon { width: 16px; }
+.Toastify__toast--success .Toastify__toast-icon { color: var(--color-positive); }
+.Toastify__toast--error .Toastify__toast-icon { color: var(--color-negative); }
+.Toastify__toast--info .Toastify__toast-icon { color: var(--color-data); }
+.Toastify__close-button { color: var(--color-muted); opacity: 1; align-self: center; }
+.Toastify__progress-bar { display: none; }
