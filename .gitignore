@@ -12,6 +12,10 @@ dist
 dist-ssr
 *.local
 
+# Tooling artifacts
+.taste-skill
+*.tsbuildinfo
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
