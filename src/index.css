@@ -671,3 +671,16 @@ legend { padding: 0; }
 .Toastify__toast--info .Toastify__toast-icon { color: var(--color-data); }
 .Toastify__close-button { color: var(--color-muted); opacity: 1; align-self: center; }
 .Toastify__progress-bar { display: none; }
+
+/* screen-reader only */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
